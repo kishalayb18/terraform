@@ -13,3 +13,15 @@ variable "subnet_cidr_ranges" {
 variable "subnet_regions" {
   type = list(string)
 }
+
+variable "vm_zones" {
+  type = list(string)
+}
+
+variable "vm_instance_name" {
+  type = list(string)
+}
+
+# variable "ssh_key" {
+#   description = "ssh key"
+# }
